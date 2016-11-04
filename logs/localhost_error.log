@@ -1,0 +1,224 @@
+2016/11/04 12:29:37 [error] 13800#8288: *1 FastCGI sent in stderr: "PHP Warning:  include(E:\wnmp\www\ZiiFMS\zii/IMooc/Loader.php): failed to open stream: No such file or directory in E:\wnmp\www\ZiiFMS\zii\index.php on line 10
+PHP Stack trace:
+PHP   1. {main}() E:\wnmp\www\ZiiFMS\zii\index.php:0
+PHP Warning:  include(): Failed opening 'E:\wnmp\www\ZiiFMS\zii/IMooc/Loader.php' for inclusion (include_path='.;C:\php\pear') in E:\wnmp\www\ZiiFMS\zii\index.php on line 10
+PHP Stack trace:
+PHP   1. {main}() E:\wnmp\www\ZiiFMS\zii\index.php:0
+PHP Fatal error:  Uncaught LogicException: Function '\IMooc\Loader::autoload' not found (class '\IMooc\Loader' not found) in E:\wnmp\www\ZiiFMS\zii\index.php:11
+Stack trace:
+#0 E:\wnmp\www\ZiiFMS\zii\index.php(11): spl_autoload_register('\\IMooc\\Loader::...')
+#1 {main}
+  thrown in E:\wnmp\www\ZiiFMS\zii\index.php on line 11" while reading response header from upstream, client: 127.0.0.1, server: www.ziifw.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9001", host: "www.ziifw.com"
+2016/11/04 12:31:24 [error] 13800#8288: *4 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Undefined constant 'zii' in E:\wnmp\www\ZiiFMS\zii\Loader.php:4
+Stack trace:
+#0 E:\wnmp\www\ZiiFMS\zii\index.php(10): include()
+#1 {main}
+  thrown in E:\wnmp\www\ZiiFMS\zii\Loader.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: www.ziifw.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9002", host: "www.ziifw.com"
+2016/11/04 12:32:39 [error] 13800#8288: *9 FastCGI sent in stderr: "PHP Warning:  require(E:\wnmp\www\ZiiFMS\zii/EventGeneratorTest.php): failed to open stream: No such file or directory in E:\wnmp\www\ZiiFMS\zii\Loader.php on line 7
+PHP Stack trace:
+PHP   1. {main}() E:\wnmp\www\ZiiFMS\zii\index.php:0
+PHP   2. spl_autoload_call() E:\wnmp\www\ZiiFMS\zii\index.php:14
+PHP   3. zii\Loader::autoload() E:\wnmp\www\ZiiFMS\zii\index.php:14
+PHP Fatal error:  require(): Failed opening required 'E:\wnmp\www\ZiiFMS\zii/EventGeneratorTest.php' (include_path='.;C:\php\pear') in E:\wnmp\www\ZiiFMS\zii\Loader.php on line 7
+PHP Stack trace:
+PHP   1. {main}() E:\wnmp\www\ZiiFMS\zii\index.php:0
+PHP   2. spl_autoload_call() E:\wnmp\www\ZiiFMS\zii\index.php:14
+PHP   3. zii\Loader::autoload() E:\wnmp\www\ZiiFMS\zii\index.php:14" while reading response header from upstream, client: 127.0.0.1, server: www.ziifw.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9001", host: "www.ziifw.com"
+2016/11/04 12:34:12 [error] 13800#8288: *13 FastCGI sent in stderr: "PHP Warning:  require(E:\wnmp\www\ZiiFMS\zii/EventGeneratorTest.php): failed to open stream: No such file or directory in E:\wnmp\www\ZiiFMS\zii\Loader.php on line 8
+PHP Stack trace:
+PHP   1. {main}() E:\wnmp\www\ZiiFMS\zii\index.php:0
+PHP   2. spl_autoload_call() E:\wnmp\www\ZiiFMS\zii\index.php:14
+PHP   3. zii\Loader::autoload() E:\wnmp\www\ZiiFMS\zii\index.php:14
+PHP Fatal error:  require(): Failed opening required 'E:\wnmp\www\ZiiFMS\zii/EventGeneratorTest.php' (include_path='.;C:\php\pear') in E:\wnmp\www\ZiiFMS\zii\Loader.php on line 8
+PHP Stack trace:
+PHP   1. {main}() E:\wnmp\www\ZiiFMS\zii\index.php:0
+PHP   2. spl_autoload_call() E:\wnmp\www\ZiiFMS\zii\index.php:14
+PHP   3. zii\Loader::autoload() E:\wnmp\www\ZiiFMS\zii\index.php:14" while reading response header from upstream, client: 127.0.0.1, server: www.ziifw.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9002", host: "www.ziifw.com"
+2016/11/04 12:34:38 [error] 13800#8288: *13 FastCGI sent in stderr: "PHP Warning:  require(E:\wnmp\www\ZiiFMS\zii/zii/DPTEST/EventGeneratorTest.php): failed to open stream: No such file or directory in E:\wnmp\www\ZiiFMS\zii\Loader.php on line 8
+PHP Stack trace:
+PHP   1. {main}() E:\wnmp\www\ZiiFMS\zii\index.php:0
+PHP   2. spl_autoload_call() E:\wnmp\www\ZiiFMS\zii\index.php:14
+PHP   3. zii\Loader::autoload() E:\wnmp\www\ZiiFMS\zii\index.php:14
+PHP Fatal error:  require(): Failed opening required 'E:\wnmp\www\ZiiFMS\zii/zii/DPTEST/EventGeneratorTest.php' (include_path='.;C:\php\pear') in E:\wnmp\www\ZiiFMS\zii\Loader.php on line 8
+PHP Stack trace:
+PHP   1. {main}() E:\wnmp\www\ZiiFMS\zii\index.php:0
+PHP   2. spl_autoload_call() E:\wnmp\www\ZiiFMS\zii\index.php:14
+PHP   3. zii\Loader::autoload() E:\wnmp\www\ZiiFMS\zii\index.php:14" while reading response header from upstream, client: 127.0.0.1, server: www.ziifw.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9001", host: "www.ziifw.com"
+2016/11/04 12:34:48 [error] 13800#8288: *13 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Undefined constant 'zii\DPtest' in E:\wnmp\www\ZiiFMS\zii\DPtest\EventGeneratorTest.php:2
+Stack trace:
+#0 E:\wnmp\www\ZiiFMS\zii\Loader.php(8): require()
+#1 [internal function]: zii\Loader::autoload('DPTEST\\EventGen...')
+#2 E:\wnmp\www\ZiiFMS\zii\index.php(14): spl_autoload_call('DPTEST\\EventGen...')
+#3 {main}
+  thrown in E:\wnmp\www\ZiiFMS\zii\DPtest\EventGeneratorTest.php on line 2" while reading response header from upstream, client: 127.0.0.1, server: www.ziifw.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9002", host: "www.ziifw.com"
+2016/11/04 12:35:03 [error] 13800#8288: *13 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Undefined constant 'zii\DPtest' in E:\wnmp\www\ZiiFMS\zii\DPtest\EventGeneratorTest.php:2
+Stack trace:
+#0 E:\wnmp\www\ZiiFMS\zii\Loader.php(8): require()
+#1 [internal function]: zii\Loader::autoload('DPtest\\EventGen...')
+#2 E:\wnmp\www\ZiiFMS\zii\index.php(14): spl_autoload_call('DPtest\\EventGen...')
+#3 {main}
+  thrown in E:\wnmp\www\ZiiFMS\zii\DPtest\EventGeneratorTest.php on line 2" while reading response header from upstream, client: 127.0.0.1, server: www.ziifw.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9001", host: "www.ziifw.com"
+2016/11/04 12:35:24 [error] 13800#8288: *13 FastCGI sent in stderr: "PHP Warning:  require(E:\wnmp\www\ZiiFMS\zii/DPtest/EventGenerator.php): failed to open stream: No such file or directory in E:\wnmp\www\ZiiFMS\zii\Loader.php on line 8
+PHP Stack trace:
+PHP   1. {main}() E:\wnmp\www\ZiiFMS\zii\index.php:0
+PHP   2. spl_autoload_call() E:\wnmp\www\ZiiFMS\zii\index.php:14
+PHP   3. zii\Loader::autoload() E:\wnmp\www\ZiiFMS\zii\index.php:14
+PHP   4. require() E:\wnmp\www\ZiiFMS\zii\Loader.php:8
+PHP   5. spl_autoload_call() E:\wnmp\www\ZiiFMS\zii\DPtest\EventGeneratorTest.php:4
+PHP   6. zii\Loader::autoload() E:\wnmp\www\ZiiFMS\zii\DPtest\EventGeneratorTest.php:4
+PHP Fatal error:  require(): Failed opening required 'E:\wnmp\www\ZiiFMS\zii/DPtest/EventGenerator.php' (include_path='.;C:\php\pear') in E:\wnmp\www\ZiiFMS\zii\Loader.php on line 8
+PHP Stack trace:
+PHP   1. {main}() E:\wnmp\www\ZiiFMS\zii\index.php:0
+PHP   2. spl_autoload_call() E:\wnmp\www\ZiiFMS\zii\index.php:14
+PHP   3. zii\Loader::autoload() E:\wnmp\www\ZiiFMS\zii\index.php:14
+PHP   4. require() E:\wnmp\www\ZiiFMS\zii\Loader.php:8
+PHP   5. spl_autoload_call() E:\wnmp\www\ZiiFMS\zii\DPtest\EventGeneratorTest.php:4
+PHP   6. zii\Loader::autoload() E:\wnmp\www\ZiiFMS\zii\DPtest\EventGeneratorTest.php:4" while reading response header from upstream, client: 127.0.0.1, server: www.ziifw.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9002", host: "www.ziifw.com"
+2016/11/04 12:36:47 [error] 13800#8288: *29 FastCGI sent in stderr: "PHP Warning:  require(E:\wnmp\www\ZiiFMS\zii/DPtest/EventGenerator.php): failed to open stream: No such file or directory in E:\wnmp\www\ZiiFMS\zii\Loader.php on line 8
+PHP Stack trace:
+PHP   1. {main}() E:\wnmp\www\ZiiFMS\zii\index.php:0
+PHP   2. spl_autoload_call() E:\wnmp\www\ZiiFMS\zii\index.php:14
+PHP   3. zii\Loader::autoload() E:\wnmp\www\ZiiFMS\zii\index.php:14
+PHP   4. require() E:\wnmp\www\ZiiFMS\zii\Loader.php:8
+PHP   5. spl_autoload_call() E:\wnmp\www\ZiiFMS\zii\DPtest\EventGeneratorTest.php:4
+PHP   6. zii\Loader::autoload() E:\wnmp\www\ZiiFMS\zii\DPtest\EventGeneratorTest.php:4
+PHP Fatal error:  require(): Failed opening required 'E:\wnmp\www\ZiiFMS\zii/DPtest/EventGenerator.php' (include_path='.;C:\php\pear') in E:\wnmp\www\ZiiFMS\zii\Loader.php on line 8
+PHP Stack trace:
+PHP   1. {main}() E:\wnmp\www\ZiiFMS\zii\index.php:0
+PHP   2. spl_autoload_call() E:\wnmp\www\ZiiFMS\zii\index.php:14
+PHP   3. zii\Loader::autoload() E:\wnmp\www\ZiiFMS\zii\index.php:14
+PHP   4. require() E:\wnmp\www\ZiiFMS\zii\Loader.php:8
+PHP   5. spl_autoload_call() E:\wnmp\www\ZiiFMS\zii\DPtest\EventGeneratorTest.php:4
+PHP   6. zii\Loader::autoload() E:\wnmp\www\ZiiFMS\zii\DPtest\EventGeneratorTest.php:4" while reading response header from upstream, client: 127.0.0.1, server: www.ziifw.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9001", host: "www.ziifw.com"
+2016/11/04 12:36:48 [error] 13800#8288: *29 FastCGI sent in stderr: "PHP Warning:  require(E:\wnmp\www\ZiiFMS\zii/DPtest/EventGenerator.php): failed to open stream: No such file or directory in E:\wnmp\www\ZiiFMS\zii\Loader.php on line 8
+PHP Stack trace:
+PHP   1. {main}() E:\wnmp\www\ZiiFMS\zii\index.php:0
+PHP   2. spl_autoload_call() E:\wnmp\www\ZiiFMS\zii\index.php:14
+PHP   3. zii\Loader::autoload() E:\wnmp\www\ZiiFMS\zii\index.php:14
+PHP   4. require() E:\wnmp\www\ZiiFMS\zii\Loader.php:8
+PHP   5. spl_autoload_call() E:\wnmp\www\ZiiFMS\zii\DPtest\EventGeneratorTest.php:4
+PHP   6. zii\Loader::autoload() E:\wnmp\www\ZiiFMS\zii\DPtest\EventGeneratorTest.php:4
+PHP Fatal error:  require(): Failed opening required 'E:\wnmp\www\ZiiFMS\zii/DPtest/EventGenerator.php' (include_path='.;C:\php\pear') in E:\wnmp\www\ZiiFMS\zii\Loader.php on line 8
+PHP Stack trace:
+PHP   1. {main}() E:\wnmp\www\ZiiFMS\zii\index.php:0
+PHP   2. spl_autoload_call() E:\wnmp\www\ZiiFMS\zii\index.php:14
+PHP   3. zii\Loader::autoload() E:\wnmp\www\ZiiFMS\zii\index.php:14
+PHP   4. require() E:\wnmp\www\ZiiFMS\zii\Loader.php:8
+PHP   5. spl_autoload_call() E:\wnmp\www\ZiiFMS\zii\DPtest\EventGeneratorTest.php:4
+PHP   6. zii\Loader::autoload() E:\wnmp\www\ZiiFMS\zii\DPtest\EventGeneratorTest.php:4" while reading response header from upstream, client: 127.0.0.1, server: www.ziifw.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9002", host: "www.ziifw.com"
+2016/11/04 13:41:39 [error] 13800#8288: *38 FastCGI sent in stderr: "PHP Warning:  require(E:\wnmp\www\ZiiFMS\zii/DPtest/EventObserverTest1.php): failed to open stream: No such file or directory in E:\wnmp\www\ZiiFMS\zii\Loader.php on line 8
+PHP Stack trace:
+PHP   1. {main}() E:\wnmp\www\ZiiFMS\zii\index.php:0
+PHP   2. spl_autoload_call() E:\wnmp\www\ZiiFMS\zii\index.php:15
+PHP   3. zii\Loader::autoload() E:\wnmp\www\ZiiFMS\zii\index.php:15
+PHP Fatal error:  require(): Failed opening required 'E:\wnmp\www\ZiiFMS\zii/DPtest/EventObserverTest1.php' (include_path='.;C:\php\pear') in E:\wnmp\www\ZiiFMS\zii\Loader.php on line 8
+PHP Stack trace:
+PHP   1. {main}() E:\wnmp\www\ZiiFMS\zii\index.php:0
+PHP   2. spl_autoload_call() E:\wnmp\www\ZiiFMS\zii\index.php:15
+PHP   3. zii\Loader::autoload() E:\wnmp\www\ZiiFMS\zii\index.php:15" while reading response header from upstream, client: 127.0.0.1, server: www.ziifw.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9002", host: "www.ziifw.com"
+2016/11/04 13:42:00 [error] 13800#8288: *38 FastCGI sent in stderr: "PHP Warning:  require(E:\wnmp\www\ZiiFMS\zii/zii/EventObserver.php): failed to open stream: No such file or directory in E:\wnmp\www\ZiiFMS\zii\Loader.php on line 8
+PHP Stack trace:
+PHP   1. {main}() E:\wnmp\www\ZiiFMS\zii\index.php:0
+PHP   2. spl_autoload_call() E:\wnmp\www\ZiiFMS\zii\index.php:15
+PHP   3. zii\Loader::autoload() E:\wnmp\www\ZiiFMS\zii\index.php:15
+PHP   4. require() E:\wnmp\www\ZiiFMS\zii\Loader.php:8
+PHP   5. spl_autoload_call() E:\wnmp\www\ZiiFMS\zii\DPtest\EventObserverTest.php:4
+PHP   6. zii\Loader::autoload() E:\wnmp\www\ZiiFMS\zii\DPtest\EventObserverTest.php:4
+PHP Fatal error:  require(): Failed opening required 'E:\wnmp\www\ZiiFMS\zii/zii/EventObserver.php' (include_path='.;C:\php\pear') in E:\wnmp\www\ZiiFMS\zii\Loader.php on line 8
+PHP Stack trace:
+PHP   1. {main}() E:\wnmp\www\ZiiFMS\zii\index.php:0
+PHP   2. spl_autoload_call() E:\wnmp\www\ZiiFMS\zii\index.php:15
+PHP   3. zii\Loader::autoload() E:\wnmp\www\ZiiFMS\zii\index.php:15
+PHP   4. require() E:\wnmp\www\ZiiFMS\zii\Loader.php:8
+PHP   5. spl_autoload_call() E:\wnmp\www\ZiiFMS\zii\DPtest\EventObserverTest.php:4
+PHP   6. zii\Loader::autoload() E:\wnmp\www\ZiiFMS\zii\DPtest\EventObserverTest.php:4" while reading response header from upstream, client: 127.0.0.1, server: www.ziifw.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9001", host: "www.ziifw.com"
+2016/11/04 13:42:11 [error] 13800#8288: *38 FastCGI sent in stderr: "PHP Warning:  require(E:\wnmp\www\ZiiFMS\zii/zii/EventObserver.php): failed to open stream: No such file or directory in E:\wnmp\www\ZiiFMS\zii\Loader.php on line 8
+PHP Stack trace:
+PHP   1. {main}() E:\wnmp\www\ZiiFMS\zii\index.php:0
+PHP   2. spl_autoload_call() E:\wnmp\www\ZiiFMS\zii\index.php:15
+PHP   3. zii\Loader::autoload() E:\wnmp\www\ZiiFMS\zii\index.php:15
+PHP   4. require() E:\wnmp\www\ZiiFMS\zii\Loader.php:8
+PHP   5. spl_autoload_call() E:\wnmp\www\ZiiFMS\zii\DPtest\EventObserverTest.php:4
+PHP   6. zii\Loader::autoload() E:\wnmp\www\ZiiFMS\zii\DPtest\EventObserverTest.php:4
+PHP Fatal error:  require(): Failed opening required 'E:\wnmp\www\ZiiFMS\zii/zii/EventObserver.php' (include_path='.;C:\php\pear') in E:\wnmp\www\ZiiFMS\zii\Loader.php on line 8
+PHP Stack trace:
+PHP   1. {main}() E:\wnmp\www\ZiiFMS\zii\index.php:0
+PHP   2. spl_autoload_call() E:\wnmp\www\ZiiFMS\zii\index.php:15
+PHP   3. zii\Loader::autoload() E:\wnmp\www\ZiiFMS\zii\index.php:15
+PHP   4. require() E:\wnmp\www\ZiiFMS\zii\Loader.php:8
+PHP   5. spl_autoload_call() E:\wnmp\www\ZiiFMS\zii\DPtest\EventObserverTest.php:4
+PHP   6. zii\Loader::autoload() E:\wnmp\www\ZiiFMS\zii\DPtest\EventObserverTest.php:4" while reading response header from upstream, client: 127.0.0.1, server: www.ziifw.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9002", host: "www.ziifw.com"
+2016/11/04 13:42:57 [error] 13800#8288: *38 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Undefined constant 'zii\Pattern' in E:\wnmp\www\ZiiFMS\zii\Pattern\EventObserver.php:2
+Stack trace:
+#0 E:\wnmp\www\ZiiFMS\zii\Loader.php(8): require()
+#1 [internal function]: zii\Loader::autoload('Pattern\\EventOb...')
+#2 E:\wnmp\www\ZiiFMS\zii\DPtest\EventObserverTest.php(4): spl_autoload_call('Pattern\\EventOb...')
+#3 E:\wnmp\www\ZiiFMS\zii\Loader.php(8): require('E:\\wnmp\\www\\Zii...')
+#4 [internal function]: zii\Loader::autoload('DPtest\\EventObs...')
+#5 E:\wnmp\www\ZiiFMS\zii\index.php(15): spl_autoload_call('DPtest\\EventObs...')
+#6 {main}
+  thrown in E:\wnmp\www\ZiiFMS\zii\Pattern\EventObserver.php on line 2" while reading response header from upstream, client: 127.0.0.1, server: www.ziifw.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9001", host: "www.ziifw.com"
+2016/11/04 13:43:13 [error] 13800#8288: *38 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'DPtest\EventObserverTest' not found in E:\wnmp\www\ZiiFMS\zii\index.php:15
+Stack trace:
+#0 {main}
+  thrown in E:\wnmp\www\ZiiFMS\zii\index.php on line 15" while reading response header from upstream, client: 127.0.0.1, server: www.ziifw.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9002", host: "www.ziifw.com"
+2016/11/04 13:43:28 [error] 13800#8288: *38 FastCGI sent in stderr: "PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Pattern\EventGenerator::addObserver() must be an instance of Pattern\Observer, instance of DPtest\EventObserverTest given, called in E:\wnmp\www\ZiiFMS\zii\index.php on line 15 and defined in E:\wnmp\www\ZiiFMS\zii\Pattern\EventGenerator.php:7
+Stack trace:
+#0 E:\wnmp\www\ZiiFMS\zii\index.php(15): Pattern\EventGenerator->addObserver(Object(DPtest\EventObserverTest))
+#1 {main}
+  thrown in E:\wnmp\www\ZiiFMS\zii\Pattern\EventGenerator.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: www.ziifw.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9001", host: "www.ziifw.com"
+2016/11/04 13:44:30 [error] 13800#8288: *38 FastCGI sent in stderr: "PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Pattern\EventGenerator::addObserver() must be an instance of Pattern\Observer, instance of DPtest\EventObserverTest given, called in E:\wnmp\www\ZiiFMS\zii\index.php on line 15 and defined in E:\wnmp\www\ZiiFMS\zii\Pattern\EventGenerator.php:7
+Stack trace:
+#0 E:\wnmp\www\ZiiFMS\zii\index.php(15): Pattern\EventGenerator->addObserver(Object(DPtest\EventObserverTest))
+#1 {main}
+  thrown in E:\wnmp\www\ZiiFMS\zii\Pattern\EventGenerator.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: www.ziifw.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9002", host: "www.ziifw.com"
+2016/11/04 13:44:31 [error] 13800#8288: *38 FastCGI sent in stderr: "PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Pattern\EventGenerator::addObserver() must be an instance of Pattern\Observer, instance of DPtest\EventObserverTest given, called in E:\wnmp\www\ZiiFMS\zii\index.php on line 15 and defined in E:\wnmp\www\ZiiFMS\zii\Pattern\EventGenerator.php:7
+Stack trace:
+#0 E:\wnmp\www\ZiiFMS\zii\index.php(15): Pattern\EventGenerator->addObserver(Object(DPtest\EventObserverTest))
+#1 {main}
+  thrown in E:\wnmp\www\ZiiFMS\zii\Pattern\EventGenerator.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: www.ziifw.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9001", host: "www.ziifw.com"
+2016/11/04 15:22:22 [error] 13800#8288: *68 FastCGI sent in stderr: "PHP Fatal error:  Uncaught LogicException: Function '\zii\Loader::autoload' not found (class '\zii\Loader' not found) in E:\wnmp\www\ZiiFMS\zii\index.php:14
+Stack trace:
+#0 E:\wnmp\www\ZiiFMS\zii\index.php(14): spl_autoload_register('\\zii\\Loader::au...')
+#1 {main}
+  thrown in E:\wnmp\www\ZiiFMS\zii\index.php on line 14" while reading response header from upstream, client: 127.0.0.1, server: www.ziifw.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9002", host: "www.ziifw.com"
+2016/11/04 15:22:35 [error] 13800#8288: *68 FastCGI sent in stderr: "PHP Fatal error:  Uncaught LogicException: Function '\zii\Loader::autoload' not found (class '\zii\Loader' not found) in E:\wnmp\www\ZiiFMS\zii\index.php:14
+Stack trace:
+#0 E:\wnmp\www\ZiiFMS\zii\index.php(14): spl_autoload_register('\\zii\\Loader::au...')
+#1 {main}
+  thrown in E:\wnmp\www\ZiiFMS\zii\index.php on line 14" while reading response header from upstream, client: 127.0.0.1, server: www.ziifw.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9001", host: "www.ziifw.com"
+2016/11/04 15:22:36 [error] 13800#8288: *68 FastCGI sent in stderr: "PHP Fatal error:  Uncaught LogicException: Function '\zii\Loader::autoload' not found (class '\zii\Loader' not found) in E:\wnmp\www\ZiiFMS\zii\index.php:14
+Stack trace:
+#0 E:\wnmp\www\ZiiFMS\zii\index.php(14): spl_autoload_register('\\zii\\Loader::au...')
+#1 {main}
+  thrown in E:\wnmp\www\ZiiFMS\zii\index.php on line 14" while reading response header from upstream, client: 127.0.0.1, server: www.ziifw.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9002", host: "www.ziifw.com"
+2016/11/04 15:22:37 [error] 13800#8288: *68 FastCGI sent in stderr: "PHP Fatal error:  Uncaught LogicException: Function '\zii\Loader::autoload' not found (class '\zii\Loader' not found) in E:\wnmp\www\ZiiFMS\zii\index.php:14
+Stack trace:
+#0 E:\wnmp\www\ZiiFMS\zii\index.php(14): spl_autoload_register('\\zii\\Loader::au...')
+#1 {main}
+  thrown in E:\wnmp\www\ZiiFMS\zii\index.php on line 14" while reading response header from upstream, client: 127.0.0.1, server: www.ziifw.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9001", host: "www.ziifw.com"
+2016/11/04 15:22:37 [error] 13800#8288: *73 FastCGI sent in stderr: "PHP Fatal error:  Uncaught LogicException: Function '\zii\Loader::autoload' not found (class '\zii\Loader' not found) in E:\wnmp\www\ZiiFMS\zii\index.php:14
+Stack trace:
+#0 E:\wnmp\www\ZiiFMS\zii\index.php(14): spl_autoload_register('\\zii\\Loader::au...')
+#1 {main}
+  thrown in E:\wnmp\www\ZiiFMS\zii\index.php on line 14" while reading response header from upstream, client: 127.0.0.1, server: www.ziifw.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9002", host: "www.ziifw.com"
+2016/11/04 15:22:38 [error] 13800#8288: *73 FastCGI sent in stderr: "PHP Fatal error:  Uncaught LogicException: Function '\zii\Loader::autoload' not found (class '\zii\Loader' not found) in E:\wnmp\www\ZiiFMS\zii\index.php:14
+Stack trace:
+#0 E:\wnmp\www\ZiiFMS\zii\index.php(14): spl_autoload_register('\\zii\\Loader::au...')
+#1 {main}
+  thrown in E:\wnmp\www\ZiiFMS\zii\index.php on line 14" while reading response header from upstream, client: 127.0.0.1, server: www.ziifw.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9001", host: "www.ziifw.com"
+2016/11/04 15:23:05 [error] 13800#8288: *73 FastCGI sent in stderr: "PHP Fatal error:  Uncaught LogicException: Function '\zii\Loader::autoload' not found (class '\zii\Loader' not found) in E:\wnmp\www\ZiiFMS\zii\index.php:14
+Stack trace:
+#0 E:\wnmp\www\ZiiFMS\zii\index.php(14): spl_autoload_register('\\zii\\Loader::au...')
+#1 {main}
+  thrown in E:\wnmp\www\ZiiFMS\zii\index.php on line 14" while reading response header from upstream, client: 127.0.0.1, server: www.ziifw.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9001", host: "www.ziifw.com"
+2016/11/04 16:08:43 [error] 13800#8288: *87 FastCGI sent in stderr: "PHP Fatal error:  Uncaught LogicException: Function '\zii\Loader::autoload' not found (class '\zii\Loader' not found) in E:\wnmp\www\ZiiFMS\zii\index.php:14
+Stack trace:
+#0 E:\wnmp\www\ZiiFMS\zii\index.php(14): spl_autoload_register('\\zii\\Loader::au...')
+#1 {main}
+  thrown in E:\wnmp\www\ZiiFMS\zii\index.php on line 14" while reading response header from upstream, client: 127.0.0.1, server: www.ziifw.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9002", host: "www.ziifw.com"
+2016/11/04 18:22:04 [error] 13800#8288: *90 FastCGI sent in stderr: "PHP Fatal error:  Uncaught LogicException: Function '\zii\Loader::autoload' not found (class '\zii\Loader' not found) in E:\wnmp\www\ZiiFMS\zii\index.php:14
+Stack trace:
+#0 E:\wnmp\www\ZiiFMS\zii\index.php(14): spl_autoload_register('\\zii\\Loader::au...')
+#1 {main}
+  thrown in E:\wnmp\www\ZiiFMS\zii\index.php on line 14" while reading response header from upstream, client: 127.0.0.1, server: www.ziifw.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9001", host: "www.ziifw.com"
