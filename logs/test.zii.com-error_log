@@ -1,0 +1,24 @@
+[Mon Nov 07 20:54:05.053433 2016] [authz_core:error] [pid 24186] [client 192.168.31.142:53530] AH01630: client denied by server configuration: /Users/zhangjibai/php/ZiiFramework/zii/
+[Mon Nov 07 20:54:13.306359 2016] [authz_core:error] [pid 24188] [client 192.168.31.142:53531] AH01630: client denied by server configuration: /Users/zhangjibai/php/ZiiFramework/zii/
+[Mon Nov 07 20:55:47.944607 2016] [authz_core:error] [pid 24186] [client 192.168.31.142:53534] AH01630: client denied by server configuration: /Users/zhangjibai/php/ZiiFramework/zii/
+[Mon Nov 07 20:55:49.500990 2016] [authz_core:error] [pid 24186] [client 192.168.31.142:53534] AH01630: client denied by server configuration: /Users/zhangjibai/php/ZiiFramework/zii/
+[Mon Nov 07 21:06:35.193531 2016] [authz_core:error] [pid 24188] [client 192.168.31.142:53564] AH01630: client denied by server configuration: /Users/zhangjibai/php/ZiiFramework/zii/
+[Mon Nov 07 21:37:05.165805 2016] [authz_core:error] [pid 24967] [client 192.168.31.142:54022] AH01630: client denied by server configuration: /Users/zhangjibai/php/ZiiFramework/zii/
+[Mon Nov 07 21:42:08.718798 2016] [authz_core:error] [pid 24973] [client 192.168.31.142:54144] AH01630: client denied by server configuration: /Users/zhangjibai/php/ZiiFramework/zii/
+[Mon Nov 07 21:46:58.636101 2016] [authz_core:error] [pid 25163] [client 192.168.31.142:54240] AH01630: client denied by server configuration: /Users/zhangjibai/php/ZiiFramework/zii/
+[Mon Nov 07 21:47:00.973203 2016] [authz_core:error] [pid 25163] [client 192.168.31.142:54240] AH01630: client denied by server configuration: /Users/zhangjibai/php/ZiiFramework/zii/
+[Mon Nov 07 21:49:38.961491 2016] [authz_core:error] [pid 25222] [client 192.168.31.142:54258] AH01630: client denied by server configuration: /Users/zhangjibai/php/ZiiFramework/zii/
+[Mon Nov 07 21:51:19.529717 2016] [authz_core:error] [pid 25267] [client 192.168.31.142:54285] AH01630: client denied by server configuration: /Users/zhangjibai/php/ZiiFramework/zii/
+[Mon Nov 07 21:52:34.613307 2016] [authz_core:error] [pid 25270] [client 192.168.31.142:54297] AH01630: client denied by server configuration: /Users/zhangjibai/php/ZiiFramework/zii/
+[Mon Nov 07 21:59:36.539721 2016] [authz_core:error] [pid 25421] [client 192.168.31.142:54370] AH01630: client denied by server configuration: /Users/zhangjibai/php/ZiiFramework/zii/
+[Mon Nov 07 21:59:39.004094 2016] [authz_core:error] [pid 25421] [client 192.168.31.142:54370] AH01630: client denied by server configuration: /Users/zhangjibai/php/ZiiFramework/zii/
+[Tue Nov 08 20:42:28.034969 2016] [authz_core:error] [pid 25425] [client 192.168.31.142:54420] AH01630: client denied by server configuration: /Users/zhangjibai/php/ZiiFramework/zii/
+[Thu Nov 10 23:32:42.135659 2016] [authz_core:error] [pid 25421] [client 192.168.31.142:60209] AH01630: client denied by server configuration: /Users/zhangjibai/php/ZiiFramework/zii/
+[Sun Nov 13 16:53:53.923008 2016] [authz_core:error] [pid 2247] [client 192.168.31.142:50067] AH01630: client denied by server configuration: /Users/zhangjibai/php/ZiiFramework/zii/
+[Sun Nov 13 16:53:53.995433 2016] [authz_core:error] [pid 2251] [client 192.168.31.142:50068] AH01630: client denied by server configuration: /Users/zhangjibai/php/ZiiFramework/zii/favicon.ico, referer: http://test.zii.com/
+[Sun Nov 13 16:56:07.653128 2016] [authz_core:error] [pid 2316] [client 192.168.31.142:50078] AH01630: client denied by server configuration: /Users/zhangjibai/php/ZiiFramework/zii/
+[Sun Nov 13 16:56:08.550696 2016] [authz_core:error] [pid 2316] [client 192.168.31.142:50078] AH01630: client denied by server configuration: /Users/zhangjibai/php/ZiiFramework/zii/
+[Sun Nov 13 16:56:14.582711 2016] [authz_core:error] [pid 2319] [client 192.168.31.142:50079] AH01630: client denied by server configuration: /Users/zhangjibai/php/ZiiFramework/zii/
+[Sun Nov 13 16:56:43.343073 2016] [authz_core:error] [pid 2316] [client 192.168.31.142:50081] AH01630: client denied by server configuration: /Users/zhangjibai/php/ZiiFramework/zii/
+[Sun Nov 13 16:56:44.166171 2016] [authz_core:error] [pid 2316] [client 192.168.31.142:50081] AH01630: client denied by server configuration: /Users/zhangjibai/php/ZiiFramework/zii/
+[Sun Nov 13 17:06:20.525536 2016] [authz_core:error] [pid 2603] [client 192.168.31.142:50226] AH01630: client denied by server configuration: /Users/zhangjibai/php/ZiiFramework/zii/

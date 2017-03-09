@@ -7,16 +7,16 @@
  */
 
 define('BASEDIR', __DIR__);
-if(0){
+if(1){
     require BASEDIR.'/Loader.php';
 }
-
 spl_autoload_register('\\zii\\Loader::autoload');
 //echo '<meta http-equiv="content-type" content="text/html;charset=utf-8">';
 
-
-
-//exit;
+$configs = new Pattern\Configs(BASEDIR.'/configs/');
+$conf = $configs->getConfig('db.conf');
+var_dump($conf);
+exit;
 //测试观察者模式
 $ob = new \DPtest\EventGeneratorTest();
 $ob->addObserver(new \DPtest\EventObserverTest());
